@@ -623,43 +623,6 @@ footer {
 
 @media (max-width: 768px) {
 
-    /* Hide Navigation Links */
-    .nav-links {
-        display: none !important;
-    }
-
-    /* Mobile Header Layout */
-    .navbar {
-        padding: 10px 0;
-    }
-
-    .container.nav-container {
-        padding: 0 15px;
-    }
-
-    .logo {
-        font-size: 1.3rem;
-    }
-
-    .logo-icon {
-        font-size: 1.5rem;
-    }
-
-    .nav-right {
-        font-size: 0.85rem;
-        border-radius: 8px;
-        white-space: nowrap;
-    }
-
-    .hamburger {
-        display: block;
-        margin-left: 5px;
-    }
-
-    .hamburger span {
-        width: 24px;
-    }
-
     /* Mobile Menu */
     .nav-links.active {
         display: flex;
