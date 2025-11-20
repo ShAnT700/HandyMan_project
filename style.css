@@ -402,21 +402,8 @@ footer {
     animation: fadeInUp 0.8s forwards;
 }
 
-.delay-1 {
-    animation-delay: 0.2s;
-}
-
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-gap: 30px;
-}
-
-.service-card {
-    background-color: var(--bg-secondary);
-    padding: 40px 30px;
-    border-radius: 20px;
-    transition: var(--transition);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+transition: var(--transition);
+border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .service-card:hover {
